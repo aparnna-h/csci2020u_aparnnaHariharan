@@ -1,0 +1,15 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'csci2020u.lab02.SimpleTest'
+
+repositories {
+	mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+   implementation "org.checkerframework.annotatedlib:commons-csv:1.9.0"
+}
